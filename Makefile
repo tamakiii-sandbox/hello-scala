@@ -2,6 +2,6 @@
 build:
 	sbt compile
 
-runt:
+run:
 	sbt run
 
