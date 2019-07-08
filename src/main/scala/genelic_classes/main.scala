@@ -11,7 +11,7 @@ class Stack[A] {
 
   def peek: A = elements.head
 
-  def pop(): A = {
+  def pop: A = {
     val currentTop = peek
     elements = elements.tail
     currentTop
