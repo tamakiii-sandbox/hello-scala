@@ -1,1 +1,4 @@
 # hello-scala
+
+## Dependencies
+- sbt
