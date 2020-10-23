@@ -1,4 +1,4 @@
-.PHONY: setup dependencies build run
+.PHONY: setup dependencies build run console
 
 setup: \
 	dependencies
@@ -12,3 +12,5 @@ build:
 run:
 	sbt run
 
+console:
+	sbt console
